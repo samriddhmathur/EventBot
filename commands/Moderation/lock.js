@@ -3,7 +3,6 @@ module.exports = {
     name: 'lock',
     description: "Locks a perticular channel.",
     usage: '#channel RoleID <reason>',
-    timeout: 0.1,
     run: async(client,message,args) => {
 
         //checking perms

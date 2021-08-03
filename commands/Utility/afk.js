@@ -3,7 +3,6 @@ const { afk } = require('../../Collection');
 module.exports = {
     name: 'afk',
     usage: '<reason>',
-    timeout: 0.1,
     description: "Sets user to afk.",
     /** 
      * @param {Client} client 

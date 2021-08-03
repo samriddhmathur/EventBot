@@ -22,7 +22,6 @@ module.exports = {
     name: 'userinfo',
     aliases: ['ui'],
     usage: '@user',
-    timeout: 10000,
     description: 'Shows the information of the user.',
     /** 
      * @param {Client} client 

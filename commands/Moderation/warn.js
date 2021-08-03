@@ -6,7 +6,6 @@ const { Message, MessageEmbed } = require('discord.js')
 module.exports = {
     name: 'warn',
     aliases: ['w'],
-    timeout: 0.1,
     usage: '@user <reason>',
     description: "Warns a user.",
     /**

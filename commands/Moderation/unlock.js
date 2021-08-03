@@ -2,7 +2,6 @@ const { MessageEmbed } = require('discord.js')
 module.exports = {
     name: 'unlock',
     usage: '#channel RoleID <reason>',
-    timeout: 0.1,
     description: "Unlocks a perticular channel.",
 
     run: async(client,message,args) => {

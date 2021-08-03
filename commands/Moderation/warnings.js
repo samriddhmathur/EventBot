@@ -5,7 +5,6 @@ module.exports = {
     name: 'warnings',
     aliases: ['infractions', 'warns'],
     usage: '@user',
-    timeout: 10000,
     description: "Displays the current warns of a user.",
     /**
      * @param {Message} message

@@ -3,7 +3,6 @@ const { Client, Message, MessageEmbed } = require('discord.js');
 module.exports = {
     name : 'remove-warn',
     aliases: ['removewarn'],
-    timeout: 0.1,
     usage: '@user <Warn number to be removed>',
     description: "Removes one warning of a user at a time.",
     run : async(client, message, args) => {

@@ -3,7 +3,6 @@ const moment = require('moment');
 module.exports = {
     name: 'serverinfo',
     aliases: ['si'],
-    timeout: 10000,
     description: 'Shows the information about the server.',
     /**
      * @param {Client} client

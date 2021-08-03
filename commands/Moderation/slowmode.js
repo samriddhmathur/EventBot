@@ -3,7 +3,6 @@ const { Client, Message, MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'slowmode',
     aliases: ['sm'],
-    timeout: '0.1',
     usage: '<time>',
     description: 'Changes slowmode of a channel.',
     /** 
