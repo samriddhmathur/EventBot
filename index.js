@@ -11,6 +11,7 @@ module.exports = client;
 //ready event
 client.on('ready', async() => {
     console.log('I am ready');
+    client.user.setActivity('$help')
 })
 //conecting to mongodb
 const mongoose = require('mongoose')
