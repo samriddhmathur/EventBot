@@ -1,0 +1,1 @@
+Hello I am mist and today I am going to describe my bot. So my bot is a OP moderation and fun bot which can be used in many servers. My bot has special commands which everyone would love to use. Thank you for reading this.
