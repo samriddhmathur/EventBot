@@ -39,7 +39,7 @@ module.exports = {
         //making an embed which will be sent to channel after person is unmuted.
         var confirmation = new Discord.MessageEmbed()
         .setColor('0x05ff4c')
-        .setDescription(`${verify} <@${targetID.user.id}> has been succesfully unmuted by ${msg.author}`)
+        .setDescription(`<@${targetID.user.id}> has been succesfully unmuted by ${msg.author}`)
         //sending the embed.
         msg.channel.send(confirmation);
 } else return msg.reply('Member is not Muted.');
